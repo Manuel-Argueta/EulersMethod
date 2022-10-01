@@ -27,8 +27,9 @@ def eulersMethod(differential,step,initX,initY,finalX):
 
 
 print("Lets use Eulers Method to approximate solution curves!")
+print("Please make sure to keep PEMDAS in mind when using this tool. Parenthesis can be used.")
 print("=======================================================")
-userDifferential = str(input("Enter the differential equation: "))
+userDifferential = str(input("Enter the differential equation(use ** for exponentiation, * for multiplication and / for division): "))
 stepSize = float(input("Enter the step size: "))
 initialX = float(input("Enter the initial X value: "))
 initialY = float(input("Enter the initial Y value: "))
